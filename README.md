@@ -25,6 +25,7 @@ ___
     - [**Basics of IOT2050-Setup Tool**](#basics-of-iot2050-setup-tool)
     - [**EIO controller firmware update**](#eio-controller-firmware-update)
     - [**IOT2050SM WebUI**](#iot2050sm-webui)
+    - [**Restore IOT2050 Example Image**](#restore-iot2050-example-image)
   - [**Appendix**](#appendix)
     - [**Service and support**](#service-and-support)
     - [**Links \& Literature**](#links--literature)
@@ -357,6 +358,12 @@ The new IOT2050SM Industrial gateway is designed to connect to S7-1200 SM module
 |5.|After a few seconds the connected modules should switch into running mode.|
 |6.|The module data will then be stored in different files e.g. ``value_raw`` in the directory ``/eiofs/controller/slot1/``.|
 ||![IOT2050SM-EIOFS](/docs/graphics/1-iot2050sm-eiofs.png)|
+
+___
+
+### **Restore IOT2050 Example Image**
+
+Restore manual
 
 ## **Appendix**
 
