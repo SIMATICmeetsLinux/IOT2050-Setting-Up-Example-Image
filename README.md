@@ -363,7 +363,15 @@ ___
 
 ### **Restore IOT2050 Example Image**
 
-Restore manual
+This following chapter describes how to create a backup of an example image from a device, which can then be used to flash other devices. This process is crucial for duplicating configurations or restoring a known good state.
+
+|No.|Action|
+|-|-|
+|1.|Power of the device and remove the micro SD-Card|
+|2.|To create a backup of your SD card, the entire content must be read and saved as a single image file.(e.g., .img or .vhdx). The tool "Rufus" was used as an example to copy the image.|
+||![IOT2050Advanced-RUFUS](/docs/graphics/1-iot2050-get-Image-rufus.png)|
+|3.|Once the .img or .vhdx backup is available, it can be used to flash other SD cards as described above.|
+||![IOT2050Advanced-RUFUS](/docs/graphics/1-iot2050-select-Image-rufus.png)|
 
 ## **Appendix**
 
