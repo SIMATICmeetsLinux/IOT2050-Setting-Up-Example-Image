@@ -25,6 +25,7 @@ ___
     - [**Basics of IOT2050-Setup Tool**](#basics-of-iot2050-setup-tool)
     - [**EIO controller firmware update**](#eio-controller-firmware-update)
     - [**IOT2050SM WebUI**](#iot2050sm-webui)
+    - [**Restore IOT2050 Example Image**](#restore-iot2050-example-image)
   - [**Appendix**](#appendix)
     - [**Service and support**](#service-and-support)
     - [**Links \& Literature**](#links--literature)
@@ -357,6 +358,20 @@ The new IOT2050SM Industrial gateway is designed to connect to S7-1200 SM module
 |5.|After a few seconds the connected modules should switch into running mode.|
 |6.|The module data will then be stored in different files e.g. ``value_raw`` in the directory ``/eiofs/controller/slot1/``.|
 ||![IOT2050SM-EIOFS](/docs/graphics/1-iot2050sm-eiofs.png)|
+
+___
+
+### **Restore IOT2050 Example Image**
+
+This following chapter describes how to create a backup of an example image from a device, which can then be used to flash other devices. This process is crucial for duplicating configurations or restoring a known good state.
+
+|No.|Action|
+|-|-|
+|1.|Power of the device and remove the micro SD-Card|
+|2.|To create a backup of your SD card, the entire content must be read and saved as a single image file.(e.g., .img or .vhdx). The tool "Rufus" was used as an example to copy the image.|
+||![IOT2050Advanced-RUFUS](/docs/graphics/1-iot2050-get-Image-rufus.png)|
+|3.|Once the .img or .vhdx backup is available, it can be used to flash other SD cards as described above.|
+||![IOT2050Advanced-RUFUS](/docs/graphics/1-iot2050-select-Image-rufus.png)|
 
 ## **Appendix**
 
